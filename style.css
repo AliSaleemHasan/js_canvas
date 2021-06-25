@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  box-sizing: border-box;
+}
+
+#canvas1,
+#canvas2 {
+  border: 3px solid wheat;
+  top: 50%;
+  left: 50%;
+  width: 455px;
+  height: 455px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
